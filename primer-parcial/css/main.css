@@ -167,3 +167,19 @@ a:hover {
 a:active {
   color: #000000;
 }
+
+/* Footer */
+
+footer p {
+  font-style: normal;
+  text-align: left;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.foot {
+  padding: 0.3rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
