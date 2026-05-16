@@ -237,6 +237,24 @@ h2 {
   padding: 0.3rem;
 }
 
+/* h3 */
+
+h3 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.fondo_h3 {
+  color: yellow;
+  background-color: black;
+  padding: 0.3rem;
+}
+
 /* Imágenes */
 
 .img_center {
