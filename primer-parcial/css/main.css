@@ -108,6 +108,16 @@
   font-style: italic;
 }
 
+/* Párrafos */
+
+main p {
+  line-height: 1.5;
+  padding: 0.3rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
 /* Header */
 
 header p {
@@ -146,6 +156,7 @@ nav li {
   border: solid rgb(87, 39, 0);
   background-color: rgb(255, 255, 255);
   text-decoration: none;
+  line-height: 1.5;
 }
 
 nav li a {
@@ -169,17 +180,67 @@ a:active {
 }
 
 /* Footer */
+footer {
+  margin-top: 3rem;
+}
 
 footer p {
+  font-family: 'Courier New', Courier, monospace;
   font-style: normal;
   text-align: left;
   font-weight: bold;
   line-height: 1.5;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  margin: 0%;
 }
 
 .foot {
   padding: 0.3rem;
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
+}
+
+/* h1 */
+
+h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+
+.fondo_h1 {
+  color: yellow;
+  background-color: black;
+  padding: 0.3rem;
+}
+
+/* h2 */
+
+h2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.fondo_h2 {
+  color: yellow;
+  background-color: black;
+  padding: 0.3rem;
+}
+
+/* Imágenes */
+
+.img_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
