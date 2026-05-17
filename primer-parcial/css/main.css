@@ -119,6 +119,12 @@ main p {
   margin: 0;
 }
 
+.sin_fondo {
+    background-color: transparent;
+    text-align: center;
+    text-indent: 0;
+}
+
 /* Header */
 
 header p {
@@ -246,6 +252,7 @@ h3 {
   line-height: 1.5;
   font-size: 1.5rem;
   margin-top: 3rem;
+  text-align: center;
 }
 
 .fondo_h3 {
@@ -254,9 +261,23 @@ h3 {
   padding: 0.3rem;
 }
 
-/* Imágenes */
+/* Imágenes y Videos */
 
 .img_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+}
+
+.img_center_bottom {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.vid_center {
   display: block;
   margin-left: auto;
   margin-right: auto;
