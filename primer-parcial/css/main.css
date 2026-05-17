@@ -140,7 +140,9 @@ header p {
 /* Contenedor */
 
 .contenedor {
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
   background-image: URL("../img/fondo.png");
   box-sizing: border-box;
   padding: 0.5rem;   
@@ -149,8 +151,11 @@ header p {
 /* Estilo para el Nav y Enlances */
 
 nav {
-  list-style-type: none;
   margin-left: 14%;
+}
+
+nav ul {
+  list-style: none;
 }
 
 nav li {
@@ -282,3 +287,64 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Declaración de uso de IA: Utilicé ChatGPT al final del proyecto para preguntarle qué mejoras se podrían hacer.
+Estas son las que me indicó pero no utilicé:
+
+1. Evitar <span> dentro de títulos
+Ejemplo:
+<h1><span class="fondo_h1">Arte interactivo y participación</span></h1>
+No está mal, pero podrías aplicar la clase directamente al h1
+
+-Uso el span en esos casos para que el background-color sea del ancho del texto y no del bloque.
+
+2. El <address> no debería contener un <p>
+Actualmente:
+<address><p>...</p></address>
+
+-Dejo el <p> ya que así figura en la clase 03 diapositiva 32.
+
+4. Podrías agregar alt más descriptivos
+Actualmente:
+alt="Obra de Rafael Lozano-Hemmer"
+Podría ser más específico:
+alt="Instalación interactiva Pulse Room"
+
+-Tiene razón la IA pero no dispongo de tiempo esta semana para hacer los alts en detalle :(
+
+5. Faltaría meta viewport
+En todos los HTML conviene agregar:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Porque ahora el sitio no está optimizado para celulares.
+
+-Esto no lo vimos, así que por más que la buena de ChatGPT tenga razón no sabría explicar por qué...
+
+Estas son las mejoras que me indicó y utilicé:
+
+3. El nav tiene estilos innecesarios
+En CSS:
+nav {
+  list-style-type: none;
+}
+Eso realmente debería ir en:
+nav ul {
+  list-style: none;
+}
+
+-Tiene razón, el list-style tiene que ir en el ul
+
+Mejora importante pero simple en CSS
+El contenedor fijo en 1280px
+Actualmente:
+.contenedor {
+  width: 1280px;
+}
+Eso rompe en pantallas pequeñas.
+Mejor:
+.contenedor {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+
+-Esto si lo entiendo y queda mejor. */
