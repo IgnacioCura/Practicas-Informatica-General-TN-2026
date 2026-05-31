@@ -1,0 +1,12 @@
+alert("Al aceptar cambia todo");
+let titulo = document.querySelector(".arial");
+titulo.innerText = "Qué fácil es javascript!";
+titulo.style.color = "blue";
+let parrafo1 = document.querySelector(".color1");
+parrafo1.innerText = "Claro que si!!!";
+parrafo1.style.color = "white";
+parrafo1.style.backroundColor = "black";
+let parrafo2 = document.querySelector(".color2");
+parrafo2.innerText = "Facilísimo!!!";
+parrafo2.style.color = "yellow";
+parrafo2.style.backroundColor = "black";
